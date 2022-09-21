@@ -207,24 +207,23 @@ body {
 
 
 
-.hosting-columns {
+.dropdown-columns {
     margin: 1.5rem 0;
     padding: 1rem;
     border-radius: 1rem;
 }
 
-.hosting-columns:hover {
+.dropdown-columns:hover {
     background-color: var(--clr-accent-100);
 }
 
-.hosting-columns h1 {
+.dropdown-columns h1 {
     font-size: var(--fs-700);
     color: var(--clr-accent-500);
     transition: opacity 0.2s;
-    cursor: pointer;
 }
 
-.hosting-columns p {
+.dropdown-columns p {
     font-size: var(--fs-600);
     cursor: pointer;
 }
