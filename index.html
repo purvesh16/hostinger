@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+        integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+        crossorigin="anonymous" />
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <!-- ============= SWIPER CSS ============= -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+
+    <!-- ========= CSS =============== -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/utils.css">
+
+    <!-- ============ SWIPER JS ============= -->
+    <script src="js/swiper-bundle.min.js" defer></script>
+
+    <!-- ============ JS ============= -->
+    <script src="js/index.js" defer></script>
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <section id="header">
+        <nav class="nav flex-between">
+            <div id="logo">
+                <h1>Hostinger</h1>
+            </div>
+
+            <div class="nav__menu flex-center" id="nav-menu">
+                <ul class="nav__ul">
+
+                    <li class="nav__list" data-dropdown>
+                        <a href="#hosting" class="nav__link dropdown " data-dropdown-button id="active"><i
+                                class='bx bx-home' data-dropdown-button></i>Hosting</a>
+                        <div class="dropdown-menu drop-col1 ">
+                            <div class="hosting-columns column1">
+                                <h1>Web Hosting</h1>
+                                <p>For small to medium websites</p>
+                            </div>
+
+                            <div class="hosting-columns column2">
+                                <h1>Cloud Hosting</h1>
+                                <p>For small to medifasdffas</p>
+                            </div>
+
+                            <div class="hosting-columns column2">
+                                <h1>Web Hosting</h1>
+                                <p>For small to medium websites</p>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="nav__list" data-dropdown>
+                        <a href="#vps" class="nav__link dropdown" data-dropdown-button><i class='bx bx-spreadsheet'
+                                data-dropdown-button></i>VPS</a>
+                        <div class="dropdown-menu drop-col2 ">
+                            <div class="hosting-columns column1">
+                                <h1>VPS Hosting</h1>
+                                <p>Dedicated resources to scale.</p>
+                            </div>
+
+                            <div class="hosting-columns column2">
+                                <h1>CyberPanel Hosting</h1>
+                                <p>Control panel with Open/LiteSpeed Webserver.</p>
+                            </div>
+
+                            <div class="hosting-columns column2">
+                                <h1>Minecarft Server Hosting</h1>
+                                <p>Share your Minecraft experience./p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav__list" data-dropdown>
+                        <a href="#domain" class="nav__link dropdown" data-dropdown-button><i class='bx bx-briefcase'
+                                data-dropdown-button></i>Domain</a>
+                        <div class="dropdown-menu drop-col3">
+                            <div class="hosting-columns column1">
+                                <h1>Domain Name Search</h1>
+                                <p>Find the perfect domain name.</p>
+                            </div>
+
+                            <div class="hosting-columns column2">
+                                <h1>WHOIS Lookup</h1>
+                                <p>Lookup tool to find WHOIS information.</p>
+                            </div>
+
+                            <div class="hosting-columns column2">
+                                <h1>Domain Transfer</h1>
+                                <p>Want to transfer domain to Hostinger?</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav__list" data-dropdown>
+                        <a href="#email" class="nav__link dropdown" data-dropdown-button><i <i class='bx bx-envelope'
+                                data-dropdown-button></i>Email</a>
+                        <div class="dropdown-menu drop-col4 ">
+                            <div class="hosting-columns column1">
+                                <h1>Google Workspace Email Hosting</h1>
+                                <p>Get custom email and 30GB of storage.</p>
+                            </div>
+
+                            <div class="hosting-columns column2">
+                                <h1>Hostinger Email Hosting</h1>
+                                <p>Promote your business with every outreach.</p>
+                            </div>
+
+                        </div>
+                    </li>
+                    <li class="nav__list">
+                        <a href="#log-in-out" class="nav__link login-link" data-dropdown><i
+                                class='bx bx-lock-alt'></i>Log
+                            in</a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+            <!-- ===================== DARK-MODE =========================== -->
+            <div class="dark-light-mode">
+                <i class='bx bx-sun light-mode mode-switch'></i>
+                <i class='bx bx-moon dark-mode '></i>
+            </div>
+            <!-- nav__toggle for close and open menu -->
+            <div class=" hamburger" id="hambuerger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+
+        <!-- ===================== LOGIN-FROM ============================== -->
+        <div class="center">
+            <i class='bx bx-x cross'></i>
+            <h1>Login</h1>
+            <form method="post">
+                <div class="txt-field">
+                    <input type="text" required>
+                    <span></span>
+                    <label>Username</label>
+                </div>
+                <div class=" txt-field">
+                    <input type="password" required>
+                    <span></span>
+                    <label>Password</label>
+                </div>
+                <div class=" forget-pass">Forgot Password?
+                </div>
+                <input class="login" type="submit" value="Login">
+                <div class="signup_link">
+                    Not a member?
+                    <a href="#">Signup</a>
+                </div>
+            </form>
+        </div>
+    </section>
+
+
+    <!-- ========================== HERO-SECTION ================================ -->
+    <div class="hero-container"">
+    <h1 class=" hero-heading">Hostinger</h1>
+        <div class="split left ">
+            <h1>About</h1>
+            <a href="#about" class="btn left-btn">Explore</a>
+
+        </div>
+        <div class="split right">
+            <h1>Plans</h1>
+            <a href="#plans" class="btn right-btn">Explore</a>
+        </div>
+    </div>
+
+    <!-- ================= BRANDS ====================== -->
+
+    <div class="brand-logos">
+        <div class="wordpress-logo logo">
+            <i class='bx bxl-wordpress'></i>
+            <span>Wordpress</span>
+        </div>
+        <div class="cloudflare-logo logo">
+            <i class='bx bxl-soundcloud'></i>
+            <span>Cloudflare</span>
+        </div>
+
+    </div>
+
+    <section class="about-section" id="about">
+        <div class="about-us">
+            <h1>All-In-One Web Hosting</h1>
+            <p>We prepared the best web hosting plan for you to start. You will be able to adjust plans as you go - our
+                custom-built algorithm will provide suggestions based on your usage.</p>
+        </div>
+
+        <div class="our-services">
+            <div class="service left ">
+                <ul>
+                    <li><i class='bx bx-right-arrow-circle'></i> <a href="">Free SSL</a></li>
+                    <li><i class='bx bx-right-arrow-circle'></i> <a href="">Free Migration</a></li>
+                    <li><i class='bx bx-right-arrow-circle'></i> <a href="">PHP Speed Boost</a></li>
+                    <li><i class='bx bx-right-arrow-circle'></i> <a href="">24/7/365 Tech Support</a></li>
+                </ul>
+            </div>
+            <div class="service middle">
+                <ul>
+                    <li><i class='bx bx-right-arrow-circle'></i> <a href="">Access Management</a></li>
+                    <li><i class='bx bx-right-arrow-circle'></i> <a href="">Automated backups</a></li>
+                    <li><i class='bx bx-right-arrow-circle'></i> <a href="">LiteSpeed Cache Plugin</a></li>
+                    <li><i class='bx bx-right-arrow-circle'></i> <a href="">Auto Script Installer</a></li>
+                </ul>
+            </div>
+            <div class="service right">
+                <ul>
+                    <li><i class='bx bx-right-arrow-circle'></i> <a href="">eCommerce Optimization</a></li>
+                    <li><i class='bx bx-right-arrow-circle'></i> <a href="">DDoS Protection</a></li>
+                    <li><i class='bx bx-right-arrow-circle'></i> <a href="">One-Click WordPress Installation</a></li>
+                    <li><i class='bx bx-right-arrow-circle'></i> <a href="">99.9% Uptime Guarantee</a></li>
+                </ul>
+            </div>
+        </div>
+
+    </section>
+
+
+
+    <section class="plans .active-bg " id="plans">
+        <div id="plans-container">
+            <div class="plan-div flex-center active">
+                <h3>Plans</h3>
+                <h2>Our Plans</h2>
+                <p>Savings to Set Your Website in Motion</p>
+                <a href="#" class="btn plan-btn"> <span>View Plans</span> </a>
+
+            </div>
+            <div class="plan-div flex-center">
+                <h3>Plan-1</h3>
+                <h2>₹69.00/mo</h2>
+                <p>
+                    1 Website |
+                    50 GB SSD Storage |
+                    ~10 000 Visits Monthly help_outline |
+                    1 Email Account |
+                    100 GB Bandwidth |
+                    2 Databases
+                </p>
+                <a href="#" class="btn plan-btn"><span>Buy Now</span></a>
+
+            </div>
+            <div class="plan-div flex-center">
+                <h3>Plan-2</h3>
+                <h2>₹149.00/mo</h2>
+                <p>100 Websites |
+                    100 GB SSD Storage |
+                    ~25 000 Visits Monthly help_outline |
+                    Free Email help_outline |
+                    Unlimited Bandwidth help_outline |
+                    Unlimited Databases</p>
+                <a href="#" class="btn plan-btn"> <span>Buy Now</span> </a>
+            </div>
+
+
+            <div class="plan-div flex-center">
+                <h3>Plan-3</h3>
+                <h2>₹249.00/mo</h2>
+                <p>100 Websites |
+                    200 GB SSD Storage |
+                    ~100 000 Visits Monthly help_outline |
+                    Free Email help_outline |
+                    Unlimited Bandwidth help_outline |
+                    Unlimited Databases</p>
+                <a href="#" class="btn plan-btn"> <span> Buy Now</span></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= DOMAIN ======================= -->
+
+    <section class="domain-section">
+        <h1>Find the perfect domain name</h1>
+        <p>Enter domain name of your choice and pick any extension name on the next step <br>(choose between .in, .com,
+            .online, .live, .store, .info and many more)</p>
+
+        <div class="searchbar-div">
+            <input type="text" placeholder="Enter a domain" class="searchbar">
+            <button class="btn domain-btn "><i class='bx bx-search-alt-2'></i> <span>Search</span> </button>
+        </div>
+
+    </section>
+
+    <!-- ======================== Testimonial ==================== -->
+
+    <section class="testimonial-container">
+        <div class="testimonial-section mySwiper">
+            <div class="testimonial-content swiper-wrapper">
+                <div class="slide swiper-slide">
+                    <img src="img/img1.jpg" alt="" class="image">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint nobis fuga facilis dignissimos
+                        neque maiores iusto, modi nesciunt? Soluta, incidunt.</p>
+
+                    <div class="testimonial-details">
+                        <span class="name">John Roges</span>
+                        <span class="job">Web Developer</span>
+
+                    </div>
+                </div>
+                <div class="slide swiper-slide">
+                    <img src="img/img2.jpg" alt="" class="image">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint nobis fuga facilis dignissimos
+                        neque maiores iusto, modi nesciunt? Soluta, incidunt.</p>
+
+                    <div class="testimonial-details">
+                        <span class="name">Alen Xing</span>
+                        <span class="job">Junior Web Developer</span>
+
+                    </div>
+                </div>
+                <div class="slide swiper-slide">
+                    <img src="img/img3.jpg" alt="" class="image">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint nobis fuga facilis dignissimos
+                        neque maiores iusto, modi nesciunt? Soluta, incidunt.</p>
+
+                    <div class="testimonial-details">
+                        <span class="name">Kally Washington</span>
+                        <span class="job">Frontend Developer</span>
+
+                    </div>
+                </div>
+                <div class="slide swiper-slide">
+                    <img src="img/img4.jpg" alt="" class="image">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint nobis fuga facilis dignissimos
+                        neque maiores iusto, modi nesciunt? Soluta, incidunt.</p>
+
+                    <div class="testimonial-details">
+                        <span class="name">Joy Barson</span>
+                        <span class="job">Full Stack Developer</span>
+
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next arrow-btn"></div>
+            <div class="swiper-button-prev arrow-btn"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+
+    <!-- =================== MAIN FEATURES ============================ -->
+
+    <section class="main-features">
+
+        <div class="main-features-container">
+
+            <div class="main-container main-container-1 ">
+                <div class="easy-to-use features show-feature ">
+                    <div class="container-2 common-feature">
+                        <video autoplay="autoplay">
+                            <source src="video/easy-to-set-up.mp4" type="">
+                        </video>
+                    </div>
+
+                    <div class="container-1 common-feature">
+                        <h2>Easy to use and simple</h2>
+                        <h1>Easy to set up</h1>
+                        <p>Getting your website live is as simple as a click of a button. Everything you need - provided
+                            in
+                            a clear way.</p>
+                        <a href="">Learn More</a>
+                    </div>
+
+                </div>
+                <div class="wordpress features">
+                    <div class="container-2 common-feature">
+                        <video autoplay="autoplay">
+                            <source src="video/chat-support.mp4" type="">
+                        </video>
+                    </div>
+                    <div class="container-1 common-feature">
+                        <h2>Professional and hands-on</h2>
+                        <h1>24 /7 Support</h1>
+                        <p>Our team of experts will solve technical issues to get your websites up and running. Anytime.
+                        </p>
+                        <a href="">Contact us</a>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="main-container main-container-2">
+
+
+                <div class="support features">
+                    <div class="container-1 common-feature">
+                        <h2>Performance and speed</h2>
+                        <h1>Lightning-fast websites</h1>
+                        <p>Website speed can slow or grow your business. Delight your visitors with a fast-loading and
+                            optimized website.</p>
+                        <a href="">Learn More</a>
+                    </div>
+                    <div class="container-2 common-feature">
+                        <video autoplay="autoplay">
+                            <source src="video/simply-fast-websites.mp4" type="">
+                        </video>
+                    </div>
+                </div>
+                <div class="lightning-fast features">
+                    <div class="container-1 common-feature">
+                        <h2>Great WordPress experience</h2>
+                        <h1>WordPress made easy</h1>
+                        <p>Start your website with an automatic 1-click WordPress installation. The backend is powered
+                            by
+                            LiteSpeed caching and advanced optimization to ensure your websites are fast, reliable and
+                            secure.</p>
+                        <a href="">Learn More</a>
+                    </div>
+                    <div class="container-2 common-feature">
+                        <video autoplay="autoplay">
+                            <source src="video/wordpress-made-easy.mp4" type="">
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+    <footer>
+        <div class="footer-container">
+
+            <div class="sub-container sub-container-1 ">
+                <div class="hostinger-info">
+                    <div id="logo ">
+                        <h1>Hostinger</h1>
+                    </div>
+
+                    <p>We are a web hosting company with a mission to help everyone who goes online succeed.
+                        We accomplish this by continuously developing server technology, giving expert assistance, and
+                        ensuring a flawless online website hosting experience.</p>
+                    <div class="sponsers">
+                        <img src="img/mastercard.webp" alt="">
+                        <img src="img/rupay.webp" alt="">
+                        <img src="img/dinersclub.webp" alt="">
+                        <img src="img/discover.webp" alt="">
+                        <img src="img/visa.webp" alt="">
+                    </div>
+                    <div class="socials">
+                        <i class='bx bxl-twitter'></i>
+                        <i class='bx bxl-facebook-circle'></i>
+                        <i class='bx bxl-instagram-alt'></i>
+                        <i class='bx bxl-youtube'></i>
+                        <i class='bx bxl-linkedin-square'></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="sub-container sub-container-2">
+                <div class="hosting-container common-container">
+                    <h1>Hosting</h1>
+                    <ul>
+                        <li><a href="">Web Hosting</a></li>
+                        <li><a href="">VPS Hosting</a></li>
+                        <li><a href="">Cloud Hosting</a></li>
+                        <li><a href="">WordPress Hosting</a></li>
+                        <li><a href="">Ecommerce Hosting</a></li>
+                        <li><a href="">Free Web Hosting</a></li>
+                        <li><a href="">Online Store</a></li>
+                        <li><a href="">Website Builder</a></li>
+                        <li><a href="">Buy Hosting</a></li>
+                    </ul>
+                </div>
+                <div class="domain-container common-container">
+                    <h1>Domain</h1>
+                    <ul>
+                        <li><a href="">Domain Name Search</a></li>
+                        <li><a href="">Free Domain Name</a></li>
+                        <li><a href="">Domain Transfer</a> </li>
+                        <li><a href="">CyberPanel Hosting</a></li>
+                        <li><a href="">XYZ Domain</a></li>
+                        <li><a href="">Cheap Domains</a></li>
+                        <li><a href="">Domain Extensions</a></li>
+                        <li><a href="">WHOIS Lookup</a></li>
+                        <li><a href="">Free SSL Certificate</a></li>
+
+                    </ul>
+                </div>
+
+                <div class="information-container common-container">
+                    <h1>Information</h1>
+                    <ul>
+                        <li><a href="">Migrate to Hostinger</a></li>
+                        <li><a href="">System Status</a></li>
+                        <li><a href="">Affiliate Program</a> </li>
+                        <li><a href="">Payment Methods</a></li>
+                        <li><a href="">Rewards</a></li>
+                        <li><a href="">Reviews</a></li>
+                        <li><a href="">Pricing</a></li>
+                        <li><a href="">Sitemap</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <h2>Copyright-Purvesh Paunikar</h2>
+        </div>
+        <div class="footer-container-2"></div>
+    </footer>
+</body>
+
+</html>
