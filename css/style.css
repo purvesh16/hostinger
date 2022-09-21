@@ -76,7 +76,7 @@ body {
 #logo {
     position: absolute;
     top: 1rem;
-    left: 1rem;
+    left: 5rem;
     font-size: var(--fs-800);
     margin: 0 2rem;
     padding: 2rem 1rem;
@@ -100,7 +100,7 @@ body {
     opacity: 0;
     transition: 1s ease;
     background-color: var(--clr-accent-100);
-    z-index: 100;
+    z-index: 1000;
     box-shadow: 0 2px 10px 0 rgba(0, 0, 0, .3);
 
 }
@@ -240,6 +240,7 @@ body {
     background: var(--clr-accent-100);
     box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, .3);
     display: none;
+    color: black;
 }
 
 /* =================== LOGIN FORM ======================= */
@@ -360,7 +361,7 @@ form .txt-field {
     background-color: #ffffff;
     box-shadow: 0 2px 10px 0 rgba(0, 0, 0, .3);
     border-radius: 50%;
-    z-index: 100;
+    z-index: 10000;
 
 }
 
@@ -381,14 +382,14 @@ form .txt-field {
 
 .dark-light-mode {
     position: fixed;
-    top: 2rem;
-    right: 10rem;
+    top: 3rem;
+    left: 1rem;
     width: 5rem;
     height: 5rem;
     background-color: var(--clr-accent-0);
     color: var(--clr-accent-500);
     box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, .2);
-    z-index: 10000;
+    z-index: 999;
     border-radius: 50%;
     cursor: pointer;
 }
@@ -474,7 +475,7 @@ form .txt-field {
 }
 
 
-
+/* ====================== HRRO_CONTAINER ======================== */
 
 .hero-container {
     width: 100%;
@@ -489,7 +490,7 @@ form .txt-field {
     top: 20%;
     left: 50%;
     transform: translateX(-50%);
-    color: #EF2F88;
+    color: var(--clr-accent-500);
     opacity: .6;
     pointer-events: none;
     text-transform: uppercase;
@@ -514,7 +515,7 @@ form .txt-field {
 .split.left {
     left: 0;
     display: flex;
-    background: var(--clr-accent-500);
+    background: var(--clr-accent-400);
     background-repeat: no-repeat;
     background-size: cover;
     transition: 1.3s ease;
@@ -713,7 +714,7 @@ form .txt-field {
 
 .plan-div p {
     width: 80%;
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     font-weight: 600;
     letter-spacing: .2rem;
     line-height: 1.5rem;
@@ -729,7 +730,7 @@ form .txt-field {
     font-size: 1.5rem;
     position: absolute;
     padding: 1.7rem 4.5rem;
-    opacity: 0;
+    display: none;
     bottom: 4rem;
     color: black;
 
@@ -756,6 +757,7 @@ form .txt-field {
 
 .plan-div.active a {
     cursor: pointer;
+    display: block;
 }
 
 .plan-div.active p,

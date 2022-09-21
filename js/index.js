@@ -88,11 +88,11 @@ leftBtn.addEventListener('mouseover', () => {
     left.style.backgroundColor = 'hsl(243, 100%, 96%)'
 })
 leftBtn.addEventListener('mouseout', () => {
-    left.style.backgroundColor = 'hsl(253, 100%, 22%)'
+    left.style.backgroundColor = ' hsl(256, 100%, 50%)'
 
 })
 rightBtn.addEventListener('mouseover', () => {
-    right.style.backgroundColor = 'hsl(253, 100%, 22%)'
+    right.style.backgroundColor = ' hsl(256, 100%, 50%)'
 })
 rightBtn.addEventListener('mouseout', () => {
     right.style.backgroundColor = 'hsl(243, 100%, 96%)'
